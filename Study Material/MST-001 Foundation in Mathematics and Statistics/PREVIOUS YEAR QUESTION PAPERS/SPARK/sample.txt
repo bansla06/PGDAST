@@ -1,0 +1,7 @@
+Spark Paired RDDs are nothing but RDDs containing a key-value pair. 
+Basically, key-value pair (KVP) consists of a two linked data item in it. 
+Here, the key is the identifier, whereas value is the data corresponding to the key value.
+Moreover, Spark operations work on RDDs containing any type of objects. 
+However key-value pair RDDs attains few special operations in it. Such as, distributed “shuffle” operations, grouping or aggregating the elements by a key.
+In addition, on Spark Paired RDDs containing Tuple2 objects in Scala, these operations are automatically available. 
+Basically, operations for the key-value pair are available in the Pair RDD functions class. However, that wraps around a Spark RDD of tuples.
